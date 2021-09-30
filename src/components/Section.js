@@ -50,6 +50,9 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
   padding-top: 15vh;
+  letter-spacing: 1px;
+  word-spacing: 1.9px;
+
   h1 {
   }
   p {
