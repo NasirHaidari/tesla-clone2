@@ -18,11 +18,13 @@ a {
   background: rgb(160, 186, 212);
   padding: 12px 25px;
   border-radius: 20px;
-  opacity: 0.8;
+  opacity: 0.75;
 }
-.lan {
-  left: 0;
+li :hover {
+  /* box-shadow: 0px 0px 50px 5px rgb(168, 164, 164);
+  background-color; */
 }
+
 @keyframes animateDown {
   0% 20% 50% 80% 100% {
     transform: translateY(0px);

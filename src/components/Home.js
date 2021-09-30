@@ -24,16 +24,16 @@ function Home() {
         title='Model S'
         description='Boka ett virtuellt möte'
         backgroundImg='model-s.jpg'
-        lefBtnText='Custom order'
-        rightBtnText='existing inventory'
+        lefBtnText='anpassad beställning'
+        rightBtnText='Bilar i lager'
       />
 
       <Section
         title='Model X'
         description='omgående leverans'
         backgroundImg='model-x.jpg'
-        lefBtnText='Custom order'
-        rightBtnText='existing inventory'
+        lefBtnText='anpassad beställning'
+        rightBtnText='bilar i lager'
       />
       <Section
         title='Solenergi och Powerwall'
