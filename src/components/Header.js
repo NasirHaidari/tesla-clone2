@@ -20,11 +20,11 @@ function Header() {
         <a href='https://www.tesla.com/sv_se/modelx'>Model X</a>
         <a href='https://www.tesla.com/sv_se/modely'>Model Y</a>
       </Menu>
-      <RightMenu>
-        <a onClick={() => setBurgerState(true)} href='#'>
-          <span className='menyNav'>Meny</span>
-        </a>
 
+      <RightMenu>
+        <p onClick={() => setBurgerState(true)}>
+          <span className='menyNav'>Meny</span>
+        </p>
         <CustomMenu onClick={() => setBurgerState(true)} />
       </RightMenu>
       <BurgerNav show={BurgerState}>
@@ -34,48 +34,48 @@ function Header() {
         {cars &&
           cars.map((car, index) => (
             <li key={index}>
-              <a href='#'>{car}</a>
+              <a href='https://www.tesla.com/sv_se'>{car}</a>
             </li>
           ))}
         <li>
-          <a href='#'>Bilar i lager</a>
+          <a href='https://www.tesla.com/sv_se'>Bilar i lager</a>
         </li>
         <li>
-          <a href='#'>Begagnade bilar i lager</a>
+          <a href='https://www.tesla.com/sv_se'>Begagnade bilar i lager</a>
         </li>
         <li>
-          <a href='#'>Inbyte</a>
+          <a href='https://www.tesla.com/sv_se'>Inbyte</a>
         </li>
         <li>
-          <a href='#'>Provkör</a>
+          <a href='https://www.tesla.com/sv_se'>Provkör</a>
         </li>
         <li>
-          <a href='#'>Vagnpark och bilpolicy</a>
+          <a href='https://www.tesla.com/sv_se'>Vagnpark och bilpolicy</a>
         </li>
         <li>
-          <a href='#'>Powerwall</a>
+          <a href='https://www.tesla.com/sv_se'>Powerwall</a>
         </li>
         <li>
-          <a href='#'>Energi</a>
+          <a href='https://www.tesla.com/sv_se'>Energi</a>
         </li>
         <li>
-          <a href='#'>Kommersiell energi</a>
+          <a href='https://www.tesla.com/sv_se'>Kommersiell energi</a>
         </li>
         <li>
-          <a href='#'>Elleverantör</a>
+          <a href='https://www.tesla.com/sv_se'>Elleverantör</a>
         </li>
         <li>
-          <a href='#'>Laddning</a>
+          <a href='https://www.tesla.com/sv_se'>Laddning</a>
         </li>
         <li>
-          <a href='#'>Hitta oss</a>
+          <a href='https://www.tesla.com/sv_se'>Hitta oss</a>
         </li>
         <li>
-          <a href='#'>Support</a>
+          <a href='https://www.tesla.com/sv_se'>Support</a>
         </li>
 
         <li>
-          <a href='#'>
+          <a href='https://www.tesla.com/sv_se'>
             <LanguageIcon />
             <span> Sverige</span>
           </a>
