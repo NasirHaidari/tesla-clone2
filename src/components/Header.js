@@ -73,14 +73,10 @@ function Header() {
         <li>
           <a href='#'>Support</a>
         </li>
-        <li>
-          <a href='#'>Shop</a>
-        </li>
 
         <li>
           <a href='#'>
             <LanguageIcon />
-            <span> Sverige</span>
             <span> Sverige</span>
           </a>
         </li>
